@@ -1,0 +1,13 @@
+#:kivy 1.0.9
+<card>:
+    canvas:
+        Rectangle:
+            pos: self.pos
+            size: 50,100
+<solitaire>:
+    canvas:
+        Rectangle:
+            pos: self.center_x -5,0
+            size: 10, self.height
+    card:
+        center: self.parent.center
